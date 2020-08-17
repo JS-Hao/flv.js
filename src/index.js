@@ -1,4 +1,5 @@
-// entry/index file
+import flvjs from "./flv";
 
-// make it compatible with browserify's umd wrapper
-module.exports = require('./flv.js').default;
+export { flvjs };
+
+export default flvjs;
